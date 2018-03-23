@@ -1,7 +1,31 @@
-<html>
+<!DOCTYPE html>
 
-  <body>
-    <h1>website</h1>
-  </body>
-  
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/css_index.css">
+
+    <title>NPCodes</title>
+
+
+
+</head>
+
+<body>
+    <div id="particles-js">
+        <object width="30%" postion="relative" data="media/logo.svg" type="image/svg+xml"></object>
+
+    </div>
+
+
+    <script src="libraries/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'data/particles.json', function () {
+            console.log('particles.json loaded');
+        })
+
+    </script>
+</body>
 </html>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="logo"
+   version="1.1"
+   viewBox="0 0 9.8536472 7.5785909">
+	
+  <defs>
+	<style>
+		#Letters{
+			stroke-dasharray: 300;
+			stroke-dashoffset: 700;
+
+			animation-name: dash, fill;
+			animation-duration: 5s, 2s;
+			animation-delay: 0s, 2s;
+			animation-fill-mode: forwards;
+		}
+		
+		#circle1{
+			stroke-dasharray: 20;
+			stroke-dashoffset: 20;
+		
+			animation-name: circledash, fill;
+			animation-duration: 5s, 2s;
+			animation-delay: 1s, 2.5s;
+			animation-fill-mode: forwards;
+		}
+		
+		#circle2{
+			stroke-dasharray: 20;
+			stroke-dashoffset: 20;
+		
+			animation-name: circledash, fill;
+			animation-duration: 5s, 2s;
+			animation-delay: 1.2s, 2.7s;
+			animation-fill-mode: forwards;
+		}
+		
+		@keyframes dash{
+			from {
+				stroke-dashoffset: 1500;
+			}
+			to {
+				stroke-dashoffset: 1200;
+			}
+		}
+		
+		@keyframes circledash{
+			from {
+				stroke-dashoffset: 35;
+			}
+			to {
+				stroke-dashoffset: 50;
+			}
+		}
+
+		@keyframes fill {
+			from {
+				fill-opacity: 0;
+			}
+			to {
+				fill-opacity: 1;
+			}
+		}
+		
+		
+		
+	</style>
+  </defs>
+
+  <g
+     transform="translate(-52.260512,-78.06824)"
+     id="layer1">
+      <g
+         transform="translate(-1.1024868)"
+         id="text4541"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07000434">
+        <path
+           id="Letters"
+           transform="matrix(0.26458333,0,0,0.26458333,1.1024868,0)"
+           d="m 197.65234,295.19336 v 28.37891 h 3.94532 v -20.70118 l 13.3789,20.70118 h 3.65235 v -10.9961 h 2.64648 c 1.70573,0 3.19662,-0.35807 4.47266,-1.07422 1.28907,-0.71614 2.28515,-1.72526 2.98828,-3.02734 0.71614,-1.30209 1.07422,-2.82552 1.07422,-4.57031 0,-1.7448 -0.35808,-3.26823 -1.07422,-4.57032 -0.70313,-1.3151 -1.69921,-2.33072 -2.98828,-3.04687 -1.27604,-0.72917 -2.76693,-1.09375 -4.47266,-1.09375 h -2.64648 -3.94532 v 21.02344 l -13.41797,-21.02344 z m 20.97657,3.78906 h 2.7832 c 1.30208,0 2.34375,0.44922 3.125,1.34766 0.79427,0.89844 1.19141,2.08983 1.19141,3.57422 0,1.45832 -0.39714,2.63673 -1.19141,3.53515 -0.78125,0.89845 -1.82292,1.34766 -3.125,1.34766 h -2.7832 z"
+           style="fill:#80b9c7;fill-opacity:0;stroke:#000000;stroke-width:0.6;stroke-opacity:1" />
+        <circle
+           r="0.66145831"
+           cy="84.949745"
+           cx="60.533672"
+           id="circle1"
+           style="opacity:1;fill:#80b9c7;fill-opacity:0;stroke:#000000;stroke-width:0.13;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;paint-order:fill markers stroke" />
+        <circle
+           r="0.66145831"
+           cy="84.946686"
+           cx="62.520187"
+           id="circle2"
+           style="opacity:1;fill:#80b9c7;fill-opacity:0;stroke:#000000;stroke-width:0.13;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;paint-order:fill markers stroke" />
+    </g>
+  </g>
+</svg>
