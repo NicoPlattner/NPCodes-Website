@@ -7,3 +7,51 @@ body, html {
     background: #191923;
     height: 100vh;
 }
+
+#header{
+    position: absolute;
+    width: 40%;
+    min-width: 300px;
+    max-width: 70%;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#codes{
+    animation: letters 1s  steps(5) forwards, lineblink 1s step-end infinite;
+    animation-delay: 3s, 2s;
+    overflow: hidden;
+    width: 0%;
+    margin: 1em 0em;
+    border-right: 4px solid transparent;
+    color: white;
+    font-size: 10vw;
+    font-family: "Courier New";
+    letter-spacing: 0.1em;
+}
+
+@keyframes letters {
+    0% {width: 0%;}
+    100% {width: 90%;}
+
+}
+
+@keyframes lineblink {
+    0% {border-color: transparent}
+    50% {border-color: white}
+    100% {border-color: transparent}
+
+}
+
+#logo{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+#smth{
+    background-color: midnightblue;
+}
