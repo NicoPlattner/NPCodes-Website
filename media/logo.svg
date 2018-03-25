@@ -47,10 +47,10 @@
 
 		@keyframes dash{
 			from {
-				stroke-dashoffset: 1500;
+				stroke-dashoffset: 300;
 			}
 			to {
-				stroke-dashoffset: 1200;
+				stroke-dashoffset: 225;
 			}
 		}
 
