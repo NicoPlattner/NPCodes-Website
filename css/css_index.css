@@ -53,8 +53,26 @@ body, html {
     100% {border-color: transparent}
 }
 
+#projects{
+    background-color: #f7efdc;
+    padding: 3em 15%;
+}
 
+.project{
+    border-radius: 2em;
+    border: 4px solid steelblue;
+    padding: 2em;
 
-#about{
-    background-color: #F4F7F5;
+}
+
+.project img{
+    float: left;
+    margin-right: 2em;
+    width: 40%;
+    filter: blur(5px);
+    transition: filter .3s;
+}
+
+.project img:hover{
+    filter: blur(0);
 }
