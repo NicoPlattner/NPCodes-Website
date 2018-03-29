@@ -4,44 +4,112 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>NPCodes</title>
 
     <link rel="stylesheet" href="css/css_index.css">
     <link rel="stylesheet" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-
-    <title>NPCodes</title>
-
-
 
 </head>
 
 <body>
     <div id="particles-js">
         <div id="header">
-            <object id="logo" data="media/logo.svg" type="image/svg+xml"></object>
+            <object id="logo" data="media/logo_animated.svg" type="image/svg+xml"></object>
             <p id="codes">Codes</p>
         </div>
     </div>
 
 
-    <div id="projects" class="container-fluid">
+    <div id="projects">
         <h1>Projects</h1>
 
-        <div class="project col-lg-12 col-md-12">
-            <img src="media/enigma_screenshot.jpg">
+        <div class="project">
+            <div class="box">
+                <img src="media/titlescreen_high_res.jpg" class="projectbg">
 
-            <h2>
-                Enigma
-            </h2>
+                <div class="textonimg">
+                    <h2>Enigma</h2>
 
-            <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                    <p>
+                        Enigma is a Text-Based Adventure Game set in a maze. This Game was created as part of a university project.
+                    </p>
 
-            </p>
+                    <a href="https://github.com/NicoPlattner/Enigma">
+                        <img class="linkicon github" src="media/github_icon2.svg">
+                    </a>
+                </div>
+            </div>
         </div>
 
+        <div class="project">
+            <div class="box">
+                <img src="media/menuBG.png" class="projectbg">
+
+                <div class="textonimg">
+                    <h2>Theodoros' Badminton</h2>
+
+                    <p>
+                        This Badminton Game was created during a 3 day Game Jam with 2 friends.
+                    </p>
+
+                    <a href="https://npcodes.itch.io/theodoros-badminton">
+                        <img class="linkicon itch" src="media/itchio_icon.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="box">
+                <img src="media/Unbenannt.jpg" class="projectbg">
+
+                <div class="textonimg">
+                    <h2>Intermission</h2>
+
+                    <p>
+                        Intermission was the first game I made completely myself.
+                    </p>
+
+                    <a href="https://github.com/NicoPlattner/Intermission">
+                        <img class="linkicon github" src="media/github_icon2.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="filler">
+            <div class="box">
+                <img src="media/planet.png" class="projectbg">
+
+                <div class="textonimg">
+                    <h2>Coming Soon: Phaethon 3200</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div id="contact">
+        <h1>Say Hi!</h1>
 
+        <form action="mailto:nicoplattner95@gmail.com" method="post" enctype="text/plain">
+            <div id="namefield">
+                Name:<br>
+                <input type="text" name="name"><br>
+            </div>
+            <div id="mailfield">
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+            </div>
+            <div>
+                Message:<br>
+                <textarea type="text" name="comment" size="70"></textarea><br><br>
+                <input type="submit" value="Open in Mail Application">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+
+    </div>
 
     <script src="libraries/jquery-3.2.1.min.js"></script>
     <script src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
