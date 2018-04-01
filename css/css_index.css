@@ -108,6 +108,7 @@ body, html {
     padding: 4em;
     color: white;
     height: 33em;
+    width: 100%;
 }
 
 .textonimg h2{
@@ -115,6 +116,40 @@ body, html {
     margin-bottom: 1em;
     font-size: 3em;
     font-family: "Courier New";
+}
+
+.project-year{
+    font-size: 1.5em;
+}
+
+.tools{
+    position: absolute;
+    bottom: 30px;
+}
+
+.tools p{
+    padding: 5px 15px;
+    margin-left: 1em;
+    float: left;
+    border-radius: 1em;
+}
+
+.java{
+    background-color: #660000;
+    color: #ff4d4d;
+    border: 2px solid #ff4d4d;
+}
+
+.unity{
+    background-color: #000066;
+    color: #b3b3ff;
+    border: 2px solid #b3b3ff;
+}
+
+.c_sharp{
+    background-color: #133a13;
+    color: #8bda8b;
+    border: 2px solid #8bda8b;
 }
 
 .linkicon{
