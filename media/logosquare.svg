@@ -6,20 +6,20 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="9.8536472mm"
-   height="7.5785909mm"
-   viewBox="0 0 9.8536472 7.5785909"
+   id="svg8"
    version="1.1"
-   id="svg8">
+   viewBox="0 0 7.5201401 7.5201402"
+   height="7.5201402mm"
+   width="7.5201402mm">
   <defs
      id="defs2">
     <linearGradient
-       id="linearGradient6030"
-       osb:paint="solid">
+       osb:paint="solid"
+       id="linearGradient6030">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         id="stop6028"
          offset="0"
-         id="stop6028" />
+         style="stop-color:#000000;stop-opacity:1;" />
     </linearGradient>
   </defs>
   <metadata
@@ -35,33 +35,34 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
-     transform="translate(-52.260512,-78.06824)">
+     style="stroke:none"
+     transform="matrix(0.76068275,0,0,0.76068275,-39.743822,-58.379094)"
+     id="layer1">
     <g
-       aria-label="NP"
+       id="text4487"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       id="text4487">
+       aria-label="NP">
       <g
-         aria-label="NP"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07000434"
+         transform="translate(-1.1024868)"
          id="text4541"
-         transform="translate(-1.1024868)">
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07000434"
+         aria-label="NP">
         <path
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ba3939;fill-opacity:1;stroke:#ffffff;stroke-width:0.06816712;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+           id="path4543"
            d="m 53.526088,78.201544 v 7.311982 h 1.016534 v -5.333772 l 3.447147,5.333772 h 0.941048 v -2.833205 h 0.68188 c 0.439491,0 0.823627,-0.09226 1.152405,-0.276779 0.332136,-0.184517 0.588782,-0.444523 0.769947,-0.780011 0.184517,-0.33549 0.276779,-0.72801 0.276779,-1.177565 0,-0.449557 -0.09226,-0.842077 -0.276779,-1.177568 -0.181165,-0.338843 -0.437811,-0.600523 -0.769947,-0.785043 -0.328778,-0.187874 -0.712914,-0.281811 -1.152405,-0.281811 h -0.68188 -1.016534 v 5.416805 L 54.45707,78.201544 Z m 5.404729,0.976273 h 0.717107 c 0.335488,0 0.60388,0.115744 0.805173,0.347232 0.204648,0.231488 0.306973,0.538456 0.306973,0.920917 0,0.375744 -0.102325,0.679368 -0.306973,0.910851 -0.201293,0.23149 -0.469685,0.347232 -0.805173,0.347232 h -0.717107 z"
-           id="path4543" />
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ba3939;fill-opacity:1;stroke:none;stroke-width:0.06816712;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
         <circle
-           style="opacity:1;fill:#ba3939;fill-opacity:1;stroke:#ffffff;stroke-width:0.06816712;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1.33333337;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-           id="path6086"
-           cx="60.474918"
+           r="0.64413869"
            cy="84.868782"
-           r="0.64413869" />
+           cx="60.474918"
+           id="path6086"
+           style="opacity:1;fill:#ba3939;fill-opacity:1;stroke:none;stroke-width:0.06816712;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1.33333337;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
         <circle
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ba3939;fill-opacity:1;stroke:#ffffff;stroke-width:0.06816712;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1.33333337;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-           id="path6086-7"
-           cx="62.40942"
+           r="0.64413869"
            cy="84.865799"
-           r="0.64413869" />
+           cx="62.40942"
+           id="path6086-7"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ba3939;fill-opacity:1;stroke:none;stroke-width:0.06816712;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1.33333337;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
       </g>
     </g>
   </g>
