@@ -3,8 +3,6 @@
 <html lang="en">
 
 <head>
-
-
     <meta charset="UTF-8">
     <link rel="canonical" href="https://npcodes.com"/>
     <title>NPCodes</title>
@@ -12,13 +10,21 @@
 
     <link rel="preload" href="css/css_index.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
-
-		
 	
+	<script>
+		<!--#include virtual="libraries/node_modules/fg-loadcss/src/cssrelpreload.js" -->
+	</script>
 </head>
 
 <body>
-    <div id="particles-js">
+    <div id="particles-js">    
+	 
+	 <script>
+        particlesJS.load('particles-js', 'data/particles.json', function () {
+            console.log('particles.json loaded');
+        })
+    </script>
+	 
         <div id="header">
             <object id="logo" data="media/logo_animated.svg" type="image/svg+xml"></object>
             <p id="codes">Codes</p>
@@ -157,24 +163,13 @@
                 <input type="submit" value="Open in Mail Application">
                 <input type="reset" value="Reset">
             </div>
-
         </form>
-
     </div>
 
 
     <script defer src="libraries/jquery-3.2.1.min.js"></script>
     <script defer src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-	 <script defer src="libraries/particles.min.js"></script>
+	 <script src="libraries/particles.min.js"></script>
 
-    <script defer>
-        particlesJS.load('particles-js', 'data/particles.json', function () {
-            console.log('particles.json loaded');
-        })
-    </script>
-	 
-	 <script defer>
-		<!--#include virtual="libraries/node_modules/fg-loadcss/src/cssrelpreload.js" -->
-		</script>
 </body>
 </html>
