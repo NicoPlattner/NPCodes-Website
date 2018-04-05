@@ -10,8 +10,8 @@
     <title>NPCodes</title>
 	 <link rel="shortcut icon" type="image/x-icon" href="media/logosquare.ico" />
 
-    <link rel="preload" href="css/css_index.css">
-    <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="preload" href="css/css_index.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
 
 		<script>
 		<!--#include virtual="libraries/node_modules/fg-loadcss/src/cssrelpreload.js" -->
@@ -165,11 +165,11 @@
     </div>
 
 
-	 <script async src="libraries/particles.min.js"></script>
     <script defer src="libraries/jquery-3.2.1.min.js"></script>
     <script defer src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	 <script defer src="libraries/particles.min.js"></script>
 
-    <script>
+    <script defer>
         particlesJS.load('particles-js', 'data/particles.json', function () {
             console.log('particles.json loaded');
         })
