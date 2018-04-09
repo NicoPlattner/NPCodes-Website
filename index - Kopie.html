@@ -1,3 +1,8 @@
+<?php
+ob_start();
+session_start();
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -141,28 +146,15 @@
     <div id="contact">
         <h1>Say Hi!</h1>
 
-        <form method="post" enctype="text/plain">
-            <div id="namefield">
-                Name:<br>
-                <input type="text" name="name"><br>
-            </div>
-            <div id="mailfield">
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-            </div>
-            <div>
-                Message:<br>
-                <textarea name="comment" rows="5"></textarea><br><br>
-                <input type="submit" value="Open in Mail Application">
-                <input type="reset" value="Reset">
-            </div>
-        </form>
-    </div>
 
+		  <?php
+		  echo "hjk";
+		  include "contact.php";?>
+    </div>
 
     <script defer src="libraries/jquery-3.2.1.min.js"></script>
     <script defer src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-	 <script src="libraries/particles.min.js"></script>
+    <script src="libraries/particles.min.js"></script>
 	 
 	 <script>
         particlesJS.load('particles-js', 'data/particles.json', function () {
