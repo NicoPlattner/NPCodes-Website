@@ -239,6 +239,6 @@ body, html {
 
 #contact a{
     margin: .5em;
-    font-size: 2em;
-    color: black;
+    font-size: 2em !important;
+    color: black !important;
 }
