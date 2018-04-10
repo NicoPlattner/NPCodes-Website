@@ -237,8 +237,8 @@ body, html {
     font-family: "Century Gothic";
 }
 
-#contact a{
+#contact a, #contact a:link,  #contact a:visited {
     margin: .5em;
-    font-size: 2em !important;
-    color: black !important;
+    font-size: 2em;
+    color: black;
 }
