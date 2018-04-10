@@ -240,5 +240,5 @@ body, html {
 #contact a, #contact a:link,  #contact a:visited {
     margin: .5em;
     font-size: 2em;
-    color: black;
+    color: black !important;
 }
