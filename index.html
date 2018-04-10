@@ -141,17 +141,28 @@
     <div id="contact">
         <h1>Say Hi!</h1>
 
-        <a href="mailto:nicoplattner95@gmail.com" target="_blank">
-            <img src="media/mail.svg" alt="at sign" width=100>
-        </a>
-
-        <a href="mailto:nicoplattner95@gmail.com" target="_top">nicoplattner95@gmail.com</a>
-
+        <form method="post" enctype="text/plain">
+            <div id="namefield">
+                Name:<br>
+                <input type="text" name="name"><br>
+            </div>
+            <div id="mailfield">
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+            </div>
+            <div>
+                Message:<br>
+                <textarea name="comment" rows="5"></textarea><br><br>
+                <input type="submit" value="Open in Mail Application">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
     </div>
+
 
     <script defer src="libraries/jquery-3.2.1.min.js"></script>
     <script defer src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="libraries/particles.min.js"></script>
+	 <script src="libraries/particles.min.js"></script>
 	 
 	 <script>
         particlesJS.load('particles-js', 'data/particles.json', function () {
