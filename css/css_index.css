@@ -251,9 +251,9 @@ body, html {
 
 #email a img{
     display: inline-block;
-    width: 3em;
+    width: 7rem;
     height: auto;
-    margin: 1em;
+    margin: 1rem;
 }
 
 #email a img:hover{
@@ -262,6 +262,10 @@ body, html {
 }
 
 #email a{
-    font-size: 2em !important;
+    font-size: 2rem !important;
     color: black !important;
+}
+
+#email a:link{
+    color: black;
 }
