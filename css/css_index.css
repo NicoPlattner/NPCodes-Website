@@ -247,6 +247,7 @@ body, html {
 
 #email{
     text-align: center;
+    vertical-align: center;
 }
 
 #email a img{
@@ -262,10 +263,21 @@ body, html {
 }
 
 #email a{
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Arial;
     font-size: 2rem !important;
     color: black !important;
 }
 
 #email a:link{
+    vertical-align: middle;
     color: black;
+}
+
+#email a:hover{
+    text-decoration: underline;
 }
