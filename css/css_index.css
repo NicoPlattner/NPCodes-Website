@@ -55,14 +55,17 @@ body, html {
 
 #projects{
     background-color: aliceblue;
-    padding: 3em 0;
+    display: block;
+    overflow: auto;
+    padding-top: 3em;
 }
 
 #projects h1{
+    font-weight: normal;
     text-align: center;
-    margin: 1.5em 0em 2em 0em;
-    font-size: 5em;
-    font-family: "Century Gothic";
+    margin: 1em 0em 1.5em 0em;
+    font-size: 7em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .project{
@@ -100,22 +103,23 @@ body, html {
 
 
 .textonimg{
+    font-family: "Arial";
     display: none;
     position: absolute;
     left: auto;
     right: auto;
     top: 20px;
-    padding: 4em;
+    padding: 0 2em;
     color: white;
     height: 33em;
-    width: 100%;
 }
 
 .textonimg h2{
+    font-weight: normal;
     text-align: center;
     margin-bottom: 1em;
     font-size: 3em;
-    font-family: "Courier New";
+    font-family: 'Montserrat', sans-serif;
 }
 
 .project-year{
@@ -180,7 +184,7 @@ body, html {
 
     background-color: #122b40;
     height: 20em;
-    float: left;
+    float: none;
     width: 100%;
 }
 
@@ -190,6 +194,11 @@ body, html {
     height: 35em;
     object-fit: cover;
     transition: transform .5s, filter .5s;
+}
+
+.filler .textonimg{
+    margin-top: 1em;
+    width: 100%;
 }
 
 .filler:hover .textonimg{
@@ -203,6 +212,7 @@ body, html {
     }
 
     .filler{
+        float: left;
         height: 35em;
         width: 50%;
     }
@@ -223,61 +233,28 @@ body, html {
 
 #contact{
     background-color: #faebcc;
-    display: inline-block;
-    width: 100%;
-    padding: 0 10% 5% 10%;
+    display: block;
+    padding: 3em;
 }
 
 #contact h1{
+    font-weight: normal;
     text-align: center;
-    padding: 1em;
-    font-size: 5em;
-    font-family: "Century Gothic";
+    margin: 1em 0em 1.5em 0em;
+    font-size: 7em;
+    font-family: 'Montserrat', sans-serif;
 }
 
-form{
-    font-size: 1.2em;
+#email{
+    text-align: center;
 }
 
-#contact #namefield, #contact #mailfield{
+#email a img{
     display: inline-block;
-    width: 30em;
-}
-#namefield input, #mailfield input{
-    width: 80%;
+    width: 3em;
 }
 
-input[type=text] {
-    box-sizing: border-box;
-    padding: 5px 10px;
-    margin: 5px 0 10px 0;
-    border-radius: 10px;
-    border: 2px solid gray;
-}
-
-textarea{
-    box-sizing: border-box;
-    padding: 5px 10px;
-    margin: 5px 0 10px 0;
-    border-radius: 10px;
-    border: 2px solid gray;
-    width: 100%;
-    height: 150px;
-    resize: none;
-}
-
-input[type="submit"]{
-    background-color: #23527c;
-    color: white;
-    padding: 5px 10px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    margin-right: 15px;
-}
-
-input[type="reset"] {
-    background-color: lightgray;
-    padding: 5px 10px;
-    border: 2px solid gray;
-    border-radius: 10px;
+#email p{
+    display: inline-block;
+    width: 3em;
 }

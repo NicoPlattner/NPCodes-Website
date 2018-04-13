@@ -8,8 +8,9 @@
     <title>NPCodes</title>
 	 <link rel="shortcut icon" type="image/x-icon" href="media/logosquare.ico" />
 
-    <link rel="preload" href="css/css_index.css" as="style" onload="this.rel='stylesheet'">
-    <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/css_index.css">
+    <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	
 	<script>
 		<!--#include virtual="libraries/node_modules/fg-loadcss/src/cssrelpreload.js" -->
@@ -54,7 +55,6 @@
                             Java
                         </p>
                     </div>
-
 
                     <a href="https://github.com/NicoPlattner/Enigma" target="_blank">
                         <img class="linkicon github" src="media/github_icon2.svg" alt="Github Icon">
@@ -141,22 +141,18 @@
     <div id="contact">
         <h1>Say Hi!</h1>
 
-        <form method="post" enctype="text/plain">
-            <div id="namefield">
-                Name:<br>
-                <input type="text" name="name"><br>
-            </div>
-            <div id="mailfield">
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-            </div>
-            <div>
-                Message:<br>
-                <textarea name="comment" rows="5"></textarea><br><br>
-                <input type="submit" value="Open in Mail Application">
-                <input type="reset" value="Reset">
-            </div>
-        </form>
+        <div id="email">
+            <a href="mailto:nicoplattner95@gmail.com" target="_blank">
+                <img src="media/github_icon2.svg" alt="Email Icon">
+            </a>
+
+            <p>
+                nicoplattner95@gmail.com
+            </p>
+
+
+        </div>
+
     </div>
 
 
