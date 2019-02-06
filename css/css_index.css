@@ -85,7 +85,7 @@ body, html {
 
 #projects{
     background-color: #191923;
-    display: block;
+    display: inline-block;
     padding-top: 3em;
 }
 
@@ -118,7 +118,7 @@ body, html {
 .box{
     border: 1px solid whitesmoke;
     border-radius: 2em;
-    margin: 35px;
+    margin: 45px;
     transition: transform .5s, filter .5s;
     overflow: hidden;
     height: 18vw;
@@ -143,89 +143,6 @@ body, html {
 
 .box:hover{
     transform: scale(1.2);
-}
-
-.project:hover .textonimg{
-    display: block;
-}
-
-.tools{
-    position: absolute;
-    bottom: 30px;
-}
-
-.tools p{
-    padding: 5px 15px;
-    margin-left: 1em;
-    float: left;
-    border-radius: 1em;
-}
-
-.java{
-    background-color: #660000;
-    color: #ff4d4d;
-    border: 2px solid #ff4d4d;
-}
-
-.unity{
-    background-color: #000066;
-    color: #b3b3ff;
-    border: 2px solid #b3b3ff;
-}
-
-.c_sharp{
-    background-color: #133a13;
-    color: #8bda8b;
-    border: 2px solid #8bda8b;
-}
-
-.linkicon{
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-}
-
-.github{
-    height: 4em;
-    width: auto;
-}
-
-.itch{
-    height: 3em;
-    width: auto;
-}
-
-.linkicon {
-    filter: brightness(200%);
-}
-
-.filler{
-    position: relative;
-    text-align: center;
-
-    overflow: hidden;
-
-    background-color: #122b40;
-    height: 20em;
-    float: none;
-    width: 100%;
-}
-
-.filler img{
-    display: block;
-    width: 100%;
-    height: 35em;
-    object-fit: cover;
-    transition: transform .5s, filter .5s;
-}
-
-.filler .textonimg{
-    margin-top: 1em;
-    width: 100%;
-}
-
-.filler:hover .textonimg{
-    display: block;
 }
 
 
@@ -260,17 +177,22 @@ body, html {
     }
 }
 
+
+
+
 #contact{
+    padding-top: 3em;
+    margin-top: -2%;
     background-color: #191923;
-    display: block;
-    padding: 3em;
 }
 
 #contact h1{
-    font-weight: normal;
+    width: 33.33333%;
     text-align: center;
-    margin: 1em 0em 0.8em 0em;
-    font-size: 5em;
+    font-weight: normal;
+    margin: 0.2em 0em;
+    font-size: 4em;
+    color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
 
