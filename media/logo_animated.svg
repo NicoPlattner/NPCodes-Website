@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+
    width="9.8536472mm"
    height="7.5785909mm"
 
@@ -27,7 +28,7 @@
 
 		#circle1{
 			stroke-dasharray: 20;
-			stroke-dashoffset: 20;
+			stroke-dashoffset: 22;
 
 			animation-name: circledash, fill;
 			animation-duration: 5s, 2s;
@@ -37,7 +38,7 @@
 
 		#circle2{
 			stroke-dasharray: 20;
-			stroke-dashoffset: 20;
+			stroke-dashoffset: 22;
 
 			animation-name: circledash, fill;
 			animation-duration: 5s, 2s;
