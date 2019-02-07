@@ -1,15 +1,18 @@
 body, html {
-    background-color: #191923;
+    background-color: #191923 !important;
     height: 100%;
     margin: 0;
+    width: 100%;
 }
 
 #navbar{
     transition: 0.5s all;
     z-index: 2;
     position: fixed;
-    padding: .7em 5%;
-    width: 90%;
+    padding: .7em 5em;
+    right: 0;
+    left: 0;
+
 }
 
 #navbar img{
@@ -38,7 +41,6 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: whitesmoke;
-    position: relative;
     float: right;
 }
 
@@ -194,6 +196,7 @@ body, html {
     font-size: 4em;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
 }
 
 #email{
