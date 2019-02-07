@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552a529e-c11d-4f96-810b-5b3bebff1dca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/GGClip.mp4" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/GGClip.webm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/PhaethonClip.mp4" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/PhaethonClip.webm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/StocksClip.mp4" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/media/StocksClip.webm" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/media/StocksTitle.png" afterPath="$PROJECT_DIR$/media/StocksTitle.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -129,11 +123,6 @@
               <item name="NPCodes-Website" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="NPCodes-Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NPCodes-Website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149169000" />
+    <option name="totallyTimeSpent" value="149534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -559,7 +548,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="38" />
           <folding />
         </state>
       </provider>
