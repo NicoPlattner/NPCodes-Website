@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552a529e-c11d-4f96-810b-5b3bebff1dca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/media/StocksTitle.png" afterPath="$PROJECT_DIR$/media/StocksTitle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/GGTitle.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/PhaethonTitle.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/Theodoros Badminton Title.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/titlescreen_high_res.webp" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="38" />
+            <state relative-caret-position="510">
+              <caret line="57" column="63" lean-forward="false" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -26,7 +31,7 @@
       <file leaf-file-name="css_index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="289">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -89,7 +94,7 @@
     <handled-path value="$PROJECT_DIR$/libraries/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="442" />
     <option name="y" value="-16" />
     <option name="width" value="1189" />
@@ -123,6 +128,11 @@
               <item name="NPCodes-Website" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="NPCodes-Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPCodes-Website" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,6 +154,7 @@
       <recent name="C:\Users\nicop\Documents\GitHub\NPCodes-Website" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicop\Documents\GitHub\NPCodes-Website\media" />
       <recent name="C:\Users\Nico\Documents\GitHub\NPCodes-Website" />
       <recent name="C:\Users\Nico\Documents\GitHub\NPCodes-Website\media" />
     </key>
@@ -202,10 +213,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149534000" />
+    <option name="totallyTimeSpent" value="151161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17110874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -539,7 +550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css_index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -547,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="510">
+          <caret line="57" column="63" lean-forward="false" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
           <folding />
         </state>
       </provider>
