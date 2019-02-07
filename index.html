@@ -10,7 +10,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/css_index.css">
-    <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" as="style"
+   <!--
+   <link rel="preload" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css" as="style"
+   -->
           onload="this.onload=null;this.rel='stylesheet'">
     <script src="libraries/jquery-3.2.1.min.js"></script>
 
@@ -58,7 +60,13 @@
 
     <div class="project">
         <div class="box">
-            <img class="projectimg" src="media/HitVGIFsmall.gif"/>
+
+            <video  onmouseout="this.pause();this.currentTime=0;">
+                <source src="media/HitVClip.webm" type="video/webm">
+                <source src="media/HitVClip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
             <img class="projectimg top" src="media/HitVTitle.png"/>
         </div>
 
@@ -93,8 +101,14 @@
 
 
     <div class="project">
-        <div class="box">
-            <img class="projectimg" src="media/EnigmaGif.gif"/>
+        <div class="box" onmouseover="this.play()">
+
+            <video  onmouseout="this.pause();this.currentTime=0;">
+                <source src="media/EnigmaClip.webm" type="video/webm">
+                <source src="media/EnigmaClip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
             <img class="projectimg top" src="media/titlescreen_high_res.jpg"/>
         </div>
 
@@ -106,7 +120,13 @@
 
     <div class="project">
         <div class="box">
-            <img class="projectimg" src="media/TheodorosGIFsmall.gif"/>
+
+            <video  onmouseout="this.pause();this.currentTime=0;">
+                <source src="media/TheodorosClip.webm" type="video/webm">
+                <source src="media/TheodorosClip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
             <img class="projectimg top" src="media/Theodoros Badminton Title.jpg"/>
         </div>
 
@@ -118,7 +138,13 @@
 
     <div class="project">
         <div class="box">
-            <img class="projectimg" src="media/IntermissionGIFsmall.gif"/>
+
+            <video  onmouseout="this.pause();this.currentTime=0;">
+                <source src="media/IntermissionClip.webm" type="video/webm">
+                <source src="media/IntermissionClip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
             <img class="projectimg top" src="media/IntermissionTitle.PNG"/>
         </div>
 
