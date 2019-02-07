@@ -129,6 +129,7 @@ body, html {
 }
 
 .projectimg {
+    position: relative;
     width: 101.9999%;
     min-height: 101%;
 
@@ -141,6 +142,7 @@ body, html {
 }
 
 .box video{
+    position: relative;
     width: 101.9999%;
     min-height: 101%;
 
