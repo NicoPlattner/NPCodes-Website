@@ -215,6 +215,39 @@ body, html {
     white-space: nowrap;
 }
 
+#contactinfo{
+    display: inline-block;
+    width: 100%;
+    margin: 1em;
+}
+
+.contactboxbox{
+    position: relative;
+    float: left;
+    width: 15%;
+    min-width: 8em;
+    margin: 1em 0;
+}
+
+.contactbox{
+    position: relative;
+    float: left;
+    border: 1px solid whitesmoke;
+    border-radius: 2em;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 40%;
+    left: 10%;
+}
+
+.contactbox img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    vertical-align: middle;
+}
+
 #email{
     text-align: center;
     vertical-align: center;
