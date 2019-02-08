@@ -20,19 +20,20 @@
 </head>
 
 <body>
+<a class="anchor" id="a0"></a>
+
+
 <div id="navbar">
-    <img src="media/logo_small.svg" id="navbarlogo"/>
+    <a href="#a0">
+        <img src="media/logo_small.svg" id="navbarlogo"/>
+    </a>
 
     <div class="navelement">
-        Projects
+        <a href="#a2">Contact</a>
     </div>
 
-    <div class="navelement">
-        About
-    </div>
-
-    <div class="navelement">
-        Contact
+    <div class="navelement" onclick="scroll(projects)">
+        <a href="#a1">Projects</a>
     </div>
 </div>
 
@@ -44,6 +45,8 @@
 </div>
 
 <div id="projects" class="section">
+    <a class="anchor" id="a1"></a>
+
     <h1>Projects</h1>
 
     <div class="project">
@@ -172,6 +175,9 @@
 
 
 <div id="contact" class="section">
+    <a class="anchor" id="a2"></a>
+
+
     <h1>Say Hi!</h1>
 
     <div id="email">
@@ -191,5 +197,13 @@
         console.log('particles.json loaded');
     })
 </script>
+
+<script>
+    function scroll(el) {
+        var elmnt = document.getElementById(el);
+        elmnt.scrollIntoView();
+    }
+</script>
+
 </body>
 </html>

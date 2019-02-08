@@ -21,4 +21,21 @@ $(document).ready(function () {
         el.pause();
         el.currentTime = 0;
     });
+
+    // when a <a> tag that starts with a # sign is clicked
+    $('a[href^="#"]').on('click',function(e) {
+        //disable default jump
+        e.preventDefault();
+
+        // make the anker tag a jquery object
+        var target = this.hash;
+        var $target = $(target);
+
+        // scroll and dont show hash
+        $('html, body').animate({
+            'scrollTop': $target.offset().top
+        }, 800,'swing');
+    });
+
+
 });

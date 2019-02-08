@@ -45,6 +45,11 @@ body, html {
     float: right;
 }
 
+.navelement a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 #particles-js{
     background: #191923;
     height: 60vh;
