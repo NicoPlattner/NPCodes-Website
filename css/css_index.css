@@ -265,5 +265,5 @@ body, html {
 }
 
 .contactbox:hover img {
-    filter: invert(0);
+    filter: brightness(0) invert(0);
  }

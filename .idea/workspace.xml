@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552a529e-c11d-4f96-810b-5b3bebff1dca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/media/IntermissionTitle.PNG" afterPath="$PROJECT_DIR$/media/IntermissionTitle.png" />
+      <change beforePath="$PROJECT_DIR$/css/css_index.css" afterPath="$PROJECT_DIR$/css/css_index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
@@ -24,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css_index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="css_index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="150" column="21" lean-forward="true" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
+            <state relative-caret-position="703">
+              <caret line="267" column="26" lean-forward="false" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -75,8 +74,8 @@
         <option value="$PROJECT_DIR$/media/logo_full_name v2 animated.svg" />
         <option value="$PROJECT_DIR$/media/logo_animated.svg" />
         <option value="$PROJECT_DIR$/Javascript/navbar_color_change.js" />
-        <option value="$PROJECT_DIR$/css/css_index.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/css_index.css" />
       </list>
     </option>
   </component>
@@ -205,12 +204,12 @@
       <workItem from="1523614565122" duration="1011000" />
       <workItem from="1549145600371" duration="47368000" />
       <workItem from="1549451449275" duration="9135000" />
-      <workItem from="1549713646158" duration="7526000" />
+      <workItem from="1549713646158" duration="7629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177578000" />
+    <option name="totallyTimeSpent" value="177681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -527,18 +526,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css_index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="150" column="21" lean-forward="true" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="267" column="26" lean-forward="false" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="26" />
           <folding />
         </state>
       </provider>
